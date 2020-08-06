@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, View, Alert, Text } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
 import * as Location from 'expo-location';
 import axios from 'axios';
 import Loading from './Loading';
@@ -15,7 +14,6 @@ export default class App extends React.Component {
   getWeather = async (latitude, longitude) => {
     const url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
     const { data: { main: { temp }, weather }} = await axios.get(url)
-    console.log(weather);
     this.setState({ isLoading: false, temp, condition: weather[0].main, icon: weather[0].icon });
   }
 

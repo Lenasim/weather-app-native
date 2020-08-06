@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-function Loading() {
+export default function Loading() {
   return (
     <View style={styles.container}>
       <Text style={styles.text1}>
@@ -31,5 +31,3 @@ const styles = StyleSheet.create({
     fontSize: 25
   }
 })
-
-export default Loading
