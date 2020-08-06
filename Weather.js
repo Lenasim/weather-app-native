@@ -13,7 +13,7 @@ const weatherOptions = {
   Haze: ['#E8CBC0', '#636FA4'],
   Tornado: ['#cc5333', '#23074d'],
   Clear: ['#40E0D0', '#2F80ED'],
-  Clouds: ['#C9FFBF', '#FFAFBD']
+  Clouds: ['#44A08D', '#093637']
 }
 
 export default function Weather(props) {
