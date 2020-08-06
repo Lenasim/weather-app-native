@@ -1,7 +1,7 @@
 # react-native-expo Weather App
 A simple app which shows the real time weather based on your location.
-![weatherapp0](https://user-images.githubusercontent.com/58567573/89564936-0ef86600-d81e-11ea-91f8-a640bd7cf105.png)
 
+<img src="/img/weatherapp0.png" width="300" />
 
 
 ## technologies
@@ -9,11 +9,13 @@ A simple app which shows the real time weather based on your location.
 - Expo
 
 ## Features
+<p float="left">
+  <img src="/img/weatherapp1.png" width="200" />
+  <img src="/img/weatherapp2.png" width="200" />
+  <img src="/img/weatherapp3.png" width="200" />
+  <img src="/img/weatherapp4.png" width="200" />
+</p>
 
-|![weatherapp1](https://user-images.githubusercontent.com/58567573/89564937-0ef86600-d81e-11ea-9220-fd57c91432b2.png)
-|![weatherapp2](https://user-images.githubusercontent.com/58567573/89564939-0f90fc80-d81e-11ea-9dee-3c73c4ddc8ea.png)
-|![weatherapp3](https://user-images.githubusercontent.com/58567573/89564940-0f90fc80-d81e-11ea-8506-663e99e1a703.png)
-|![weatherapp4](https://user-images.githubusercontent.com/58567573/89564941-10299300-d81e-11ea-972f-d1a0bf767267.png)|
 ## Setup instructions
 
 ### 1. Install dependencies
